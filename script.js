@@ -36,7 +36,7 @@ function timeOut(arr) {
     } else {
       console.log("finish");
     }
-  }, TIME_INVAL * i);
+  }, TIME_INVAL);
 }
 submit.addEventListener("click", () => {
   TIME_INVAL = parseInt(timevalue.value);
